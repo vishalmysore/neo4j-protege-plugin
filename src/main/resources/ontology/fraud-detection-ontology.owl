@@ -1,0 +1,37 @@
+<owl:Ontology rdf:about="http://example.org/fraud-detection-ontology">
+    <rdfs:comment>This ontology is designed for fraud detection in financial transactions.</rdfs:comment>
+    <owl:Class rdf:about="#Account">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>An entity representing a financial account.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#Transaction">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>An entity representing a financial transaction.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="#FraudPattern">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>An entity representing a pattern of fraudulent behavior.</rdfs:comment>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="#sendsMoneyTo">
+        <rdfs:domain rdf:resource="#Account"/>
+        <rdfs:range rdf:resource="#Account"/>
+        <rdfs:comment>Indicates that one account sends money to another account.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#involvedIn">
+        <rdfs:domain rdf:resource="#Account"/>
+        <rdfs:range rdf:resource="#FraudPattern"/>
+        <rdfs:comment>Links an account to a specific fraud pattern.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:DatatypeProperty rdf:about="#transactionAmount">
+        <rdfs:domain rdf:resource="#Transaction"/>
+        <rdfs:comment>The amount of money involved in the transaction.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="#transactionDate">
+        <rdfs:domain rdf:resource="#Transaction"/>
+        <rdfs:comment>The date when the transaction occurred.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="#riskScore">
+        <rdfs:domain rdf:resource="#FraudPattern"/>
+        <rdfs:comment>The risk score associated with a fraud pattern.</rdfs:comment>
+    </owl:DatatypeProperty>
+</owl:Ontology>

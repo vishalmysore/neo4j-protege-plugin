@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin name="Neo4j Protege Plugin" version="1.0.0">
+   <!-- View Tab Extension for Neo4j Query -->
+   <extension id="Neo4jQueryView" point="org.protege.editor.core.application.ViewComponent">
+      <label value="Neo4j Query"/>
+      <class value="org.neo4j.protege.ui.Neo4jQueryViewComponent"/>
+      <headerColor value="@org.protege.editor.owl.OWLEditorKit"/>
+   </extension>
+</plugin>
