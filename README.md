@@ -406,35 +406,6 @@ mvn --version  # Should be 3.6+
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how:
-
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **Commit** your changes: `git commit -m 'Add amazing feature'`
-4. **Push** to branch: `git push origin feature/amazing-feature`
-5. **Open** a Pull Request
-
-### Development Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/YOUR_USERNAME/neo4j-protege-plugin.git
-cd neo4j-protege-plugin
-
-# Build
-mvn clean package
-
-# Run tests
-mvn test
-
-# Debug in Protégé
-export MAVEN_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005"
-# Then start Protégé and attach debugger to port 5005
-```
-
-
 
 
 <div align="center">
