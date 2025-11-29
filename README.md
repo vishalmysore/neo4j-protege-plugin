@@ -434,34 +434,8 @@ export MAVEN_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address
 # Then start Protégé and attach debugger to port 5005
 ```
 
----
 
-## 📝 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-Built with inspiration and support from:
-
-- **[VidyaAstra](https://sites.google.com/view/vidyaastra)** - Advanced ontology reasoning and visualization
-- **[Neo4j](https://neo4j.com/)** - Leading graph database platform
-- **[Protégé](https://protege.stanford.edu/)** - Premier ontology editor
-- **[OpenAI](https://openai.com/)** / **[Anthropic](https://anthropic.com/)** - Cutting-edge language models
-- **Knowledge Graph Community** - For continuous support and feedback
-
----
-
-## 📞 Support & Community
-
-- 🐛 **Issues**: [GitHub Issues](https://github.com/vishalmysore/neo4j-protege-plugin/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/vishalmysore/neo4j-protege-plugin/discussions)
-- 📧 **Email**: vishalmysore@gmail.com
-- 📖 **Full Guide**: [PLUGIN_GUIDE.md](PLUGIN_GUIDE.md)
-
----
 
 <div align="center">
 
