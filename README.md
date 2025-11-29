@@ -165,7 +165,7 @@ Simply select "Export to Neo4j" mode and click "Execute Query".
 
 ### 1. Natural Language Query - Translation
 
-<img src="docs/images/screenshot1-nlp-translation.png" alt="NLP Query Translation" width="800"/>
+<img src="docs/images/3.jpg" alt="NLP Query Translation" width="800"/>
 
 **What's happening:**
 1. User enters natural language query: "get me all the nodes"
@@ -183,7 +183,7 @@ Simply select "Export to Neo4j" mode and click "Execute Query".
 
 ### 2. Query Execution Success
 
-<img src="docs/images/screenshot2-query-success.png" alt="Query Success" width="800"/>
+<img src="docs/images/4.jpg" alt="Query Success" width="800"/>
 
 **What's happening:**
 1. Cypher query executed against Neo4j Aura
@@ -201,7 +201,7 @@ Simply select "Export to Neo4j" mode and click "Execute Query".
 
 ### 3. Ontology Integration with VidyaAstra
 
-<img src="docs/images/screenshot3-ontology-view.png" alt="Ontology Visualization" width="800"/>
+<img src="docs/images/5.jpg" alt="Ontology Visualization" width="800"/>
 
 **What's happening:**
 1. Imported Neo4j data now appears in Protégé class hierarchy
@@ -219,7 +219,7 @@ Simply select "Export to Neo4j" mode and click "Execute Query".
 
 ### 4. Advanced Natural Language Query
 
-<img src="docs/images/screenshot4-advanced-query.png" alt="Advanced NLP Query" width="800"/>
+<img src="docs/images/10.jpg" alt="Advanced NLP Query" width="800"/>
 
 **What's happening:**
 1. Complex query: "find all reactions"
