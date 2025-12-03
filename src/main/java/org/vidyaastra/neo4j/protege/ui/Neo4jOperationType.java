@@ -1,4 +1,4 @@
-package org.neo4j.protege.ui;
+package org.vidyaastra.neo4j.protege.ui;
 
 /**
  * Enum representing different types of operations that can be performed

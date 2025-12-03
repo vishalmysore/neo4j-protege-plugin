@@ -5,7 +5,7 @@
    <!-- View Tab Extension for Neo4j Query -->
    <extension id="Neo4jQueryView" point="org.protege.editor.core.application.ViewComponent">
       <label value="Neo4j Query"/>
-      <class value="org.neo4j.protege.ui.Neo4jQueryViewComponent"/>
+      <class value="org.vidyaastra.neo4j.protege.ui.Neo4jQueryViewComponent"/>
       <headerColor value="@org.protege.editor.owl.OWLEditorKit"/>
    </extension>
 </plugin>

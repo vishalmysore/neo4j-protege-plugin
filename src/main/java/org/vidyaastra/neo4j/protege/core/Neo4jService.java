@@ -1,4 +1,4 @@
-package org.neo4j.protege.core;
+package org.vidyaastra.neo4j.protege.core;
 
 import org.neo4j.driver.AuthTokens;
 import org.neo4j.driver.Driver;

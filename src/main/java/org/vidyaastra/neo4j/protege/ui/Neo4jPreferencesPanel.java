@@ -1,4 +1,4 @@
-package org.neo4j.protege.ui;
+package org.vidyaastra.neo4j.protege.ui;
 
 import java.awt.BorderLayout;
 import java.awt.GridBagConstraints;

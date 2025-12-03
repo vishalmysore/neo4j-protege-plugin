@@ -1,4 +1,4 @@
-package org.neo4j.protege.ui;
+package org.vidyaastra.neo4j.protege.ui;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -19,9 +19,9 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-import org.neo4j.protege.core.Neo4jService;
-import org.neo4j.protege.core.NlpQueryService;
-import org.neo4j.protege.core.OwlExportService;
+import org.vidyaastra.neo4j.protege.core.Neo4jService;
+import org.vidyaastra.neo4j.protege.core.NlpQueryService;
+import org.vidyaastra.neo4j.protege.core.OwlExportService;
 import org.protege.editor.owl.OWLEditorKit;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;

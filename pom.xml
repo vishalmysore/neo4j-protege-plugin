@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <modelVersion>4.0.0</modelVersion>
 
-<groupId>org.neo4j.protege</groupId>
+<groupId>org.vidyaastra.neo4j</groupId>
 <artifactId>neo4j-protege-plugin</artifactId>
 <version>1.0.0</version>
 <packaging>bundle</packaging>

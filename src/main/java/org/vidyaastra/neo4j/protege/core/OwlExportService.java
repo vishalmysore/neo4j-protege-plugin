@@ -1,4 +1,4 @@
-package org.neo4j.protege.core;
+package org.vidyaastra.neo4j.protege.core;
 
 import org.semanticweb.owlapi.model.*;
 import org.semanticweb.owlapi.reasoner.OWLReasoner;
